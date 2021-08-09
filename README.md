@@ -49,7 +49,7 @@ Output:
 5	2021-08-06	MGNT	5458.5
 ```
 
-Now we can insert results into database table 't_stock_history'. To deal with deduplication, we create a buffer and update results in the final table if they are already present in the final table. All SQL queries and data manupulation are included in *db_insert* function. 
+Now we can insert results into database table *t_stock_history*. To deal with deduplication, we create a buffer and update results in the final table if they are already present in the final table. All SQL queries and data manupulation are included in *db_insert* function. 
 
 ```python 
 >>> db_insert(cursor,df) # returns zero if success
