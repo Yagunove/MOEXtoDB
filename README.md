@@ -23,7 +23,12 @@ pip install -r requirements.txt
 ```
 ## A quick example
 
-Here is an example on real life stock data, demonstrating how easy it is to get the data for any given time period in your database
+Here is an example on real life stock data, demonstrating how easy it is to get the data for any given time period in your database.  
+  
+First, let's connect to our local database using *pyodbc* library:  
+```python
+docker run -d --name sql_server -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=someThingComplicated1234' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
+```
 
 ## My case of container virtualization
 
