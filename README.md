@@ -13,4 +13,19 @@ Competence showed: Database containerization with Docker, raw data ingestion wit
 - [Table of contents](#table-of-contents)
 - [Getting started](#getting-started)
 - [A quick example](#a-quick-example)
-- [My case of container virtualization](#my-case-of-container-virtualization)
+- [Bonus: My case of container virtualization](#my-case-of-container-virtualization)
+
+
+## Getting started
+
+## A quick example
+
+## Bonus: My case of container virtualization
+
+Developing this project on Apple computer implied Docker container usage to host SQL Server.
+
+To get started we will need to download [Docker for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac?tab=description)  and follow the installation instructions.
+
+```bash
+# run following command to install the SQL Server and run its image
+docker run -d --name sql_server -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=someThingComplicated1234' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
