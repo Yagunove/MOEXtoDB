@@ -2,5 +2,4 @@ pyodbc>=4.0.0
 pandas>=1.2.4
 pandasql>=0.7.3
 requests>=2.25.1
-json>=2.0.9
 datetime>=4.3
