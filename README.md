@@ -23,6 +23,8 @@ pip install -r requirements.txt
 ```
 ## A quick example
 
+Here is an example on real life stock data, demonstrating how easy it is to get the data for any given time period in your database
+
 ## My case of container virtualization
 
 Developing this project on Apple computer implied Docker container usage to host SQL Server.
