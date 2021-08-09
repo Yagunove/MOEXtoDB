@@ -62,7 +62,7 @@ Finally, we can close connection to the database to allow changes:
 'Connection was closed successfully'
 ```
 
-We can now enjoy quering our data with any database GUI - my tool of choice is Azure Data Studio since there is no SQL Server Management Studio for macOS)
+We can now enjoy quering our data with any database GUI - my tool of choice is Azure Data Studio since there is no SQL Server Management Studio for macOS.
 
 <center>
 <img src="https://github.com/Yagunove/MOEXtoDB/blob/16fada4f16168ee792f62c559743741e63f1047f/media/sample_answerset.png" style="width:70%;"/>
