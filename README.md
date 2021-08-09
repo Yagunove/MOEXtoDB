@@ -76,6 +76,6 @@ Developing this project on Apple computer implied Docker container usage to host
 To get started we will need to download [Docker for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac?tab=description)  and follow the installation instructions.
 
 ```bash
-# run following command to install the SQL Server and run its image
+# run following command in Terminal to install the SQL Server and run its image
 docker run -d --name sql_server -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=someThingComplicated1234' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
 ```
